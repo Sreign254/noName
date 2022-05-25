@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+    height: 100%;
+}
+.header{
+    padding: 15px 0;
+    background-color: white;
+}
+.header-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid green;
+}
+.logo-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0px solid green;
+    width: 80%;
+}
+.logo-content-img{ 
+    border: solid 0px #42515f;
+}
+.emp-text{
+    font: normal normal bold 20px/25px Montserrat;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0px;
+    color:#82a70c;
+    text-transform: capitalize;
+}
+.emp-payroll{ 
+    color: #42515f;
+}
+*{box-sizing: border-box;}
+.form-content {
+    min-height: calc(100% - 80px);
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid green;
+} 
+.form {
+    width: 65%;
+    padding: 44px 50px;
+    background: white;
+    box-shadow: 0px 3px 6px grey;
+    border: 1px solid white;
+    opacity: 1;
+    margin-top: 10px;
+    border-radius: 8px;
+} 
+.form-head {
+    font: normal normal bold 24px/37px Roboto;
+    letter-spacing: 0px;
+    color: #42515f;
+    text-transform: capitalize;
+    opacity: 1;
+    padding-bottom: 20px;
+}
+.row-content {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    align-items: center;
+    border: 0 px solid green;
+    flex-flow: wrap;
+} 
+.label {
+    width: 20%;
+}
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+} 
+.label-text{
+    font-size: larger;
+}
+.text {
+    font-size: small;
+    color: black;
+    opacity: 1;
+    font-family: Roboto;
+}
+.input {
+    width: 60%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+.profile-radio-content {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+} 
+.profile-radio-content > label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} 
+.profile {
+    width: 24px;
+    margin-left: 12px;
+    border-radius: 5px;
+}
+.gender {
+    display: flex;
+    justify-content: space-between;
+}
+#salary {
+    width: 70%;
+}
+select {
+    padding: 8px;
+    border-radius: 6px;
+    font: normal normal 16px Roboto;
+    resize: vertical;
+    border: 1px solid;
+    letter-spacing: 0px;
+    color: #8f98a1;
+    background-color: transparent;
+}
+.buttonParent {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 30px;
+} 
+button {
+    font-size: 12px;
+    padding: 7px 7px;
+    color:green;
+    background: transparent;
+    font-family: "Roboto";
+    border: none;
+    font-weight: 480;
+    width: 140px;
+    opacity: 1;
+    background-color: skyblue;
+    border: 1px solid #707070;
+    letter-spacing: 0px;
+    cursor: pointer;
+} 
+.submitButton {
+    border: 1px solid #707070;
+    margin-right: 30px;
+    border-radius: 15px;
+    font-size: medium;
+} 
+.cancelButton {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: medium;
+    
+}
+.resetButton{
+    font-size: medium;
+    border-radius: 15px;
+    color: green;
+}
+@media screen and (max-width: 857px) {
+    .submitButton {
+        background-color: green;
+        margin-right: 26px;
+    }
+} 
+.text-error{
+    color: red;
+}
